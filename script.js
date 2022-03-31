@@ -13,9 +13,5 @@ buttonLogin.addEventListener('click', () => {
 });
 
 agreementCheckbox.addEventListener('change', (event) => {
-  if (event.target.checked) {
-    formSubmitButton.removeAttribute('disabled');
-  } else {
-    formSubmitButton.setAttribute('disabled', 'disabled');
-  }
+  formSubmitButton.disabled = !event.target.checked;
 });
