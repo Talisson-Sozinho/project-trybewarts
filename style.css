@@ -28,6 +28,14 @@ main {
   width: 675px;
 }
 
+.full-name-container {
+  display: flex;
+}
+
+.full-name-container input {
+  flex-grow: 1;
+}
+
 #trybewarts-forms-logo {
   height: 500px;
 }
