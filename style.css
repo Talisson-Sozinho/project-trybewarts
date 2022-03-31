@@ -36,6 +36,10 @@ main {
   flex-grow: 1;
 }
 
+.email-house-container {
+  display: flex;
+}
+
 #trybewarts-forms-logo {
   height: 500px;
 }
