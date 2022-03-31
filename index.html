@@ -8,6 +8,7 @@
   <title>trybewarts</title>
 </head>
 <body>
+  <!-- header -->
   <header class="header">
     <img class='trybewarts-header-logo' src="images/trybewarts-header-logo.svg" alt="Logo">
     <h1 id='trybewarts-header-title' >Trybewarts</h1>
@@ -17,8 +18,9 @@
       <button class='btn-login' type="submit" >Entrar</button>
     </form>
   </header>
-
+  <!-- conteúdo principal -->
   <main>
+    <!-- formulário de inscrição -->
     <form id='evaluation-form' action="get">
       <div class='full-name-container'>
         <input id='input-name' placeholder='Nome' type="text">
@@ -33,6 +35,7 @@
           <option id="pytherina-house" value="Pytherina" >Pytherina</option>
         </select>
       </div>
+      <!-- input da escolha da  família -->
       <div class='family-input-container' >
         <label id='label-family' for="">Qual sua família?</label>
         <div>
@@ -46,6 +49,34 @@
         <div>
           <input id='radio-family-option-fullstack' name='family' type='radio' value='FullStack' >
           <label for="radio-family-option-fullstack">FullStack</label>
+        </div>
+      </div>
+      <!-- Escolha do conteúdo de aprendizado  -->
+      <div class='content-input-container' >
+        <label id='label-content' for="">Qual conteúdo você está com mais vontade de aprender?</label>
+        <div>
+          <input id='checkbox-content-option-hofs' name='content' type='checkbox' value='HoFs' >
+          <label for="checkbox-content-option-hofs">HoFs</label>
+        </div>
+        <div>
+          <input id='checkbox-content-option-jest' name='content' type='checkbox' value='Jest' >
+          <label for="checkbox-content-option-jest">Jest</label>
+        </div>
+        <div>
+          <input id='checkbox-content-option-promises' name='content' type='checkbox' value='Promises' >
+          <label for="checkbox-content-option-promises">Promises</label>
+        </div>
+        <div>
+          <input id='checkbox-content-option-react' name='content' type='checkbox' value='React' >
+          <label for="checkbox-content-option-react">React</label>
+        </div>
+        <div>
+          <input id='checkbox-content-option-sql' name='content' type='checkbox' value='SQL' >
+          <label for="checkbox-content-option-sql">SQL</label>
+        </div>
+        <div>
+          <input id='checkbox-content-option-python' name='content' type='checkbox' value='Python' >
+          <label for="checkbox-content-option-python">Python</label>
         </div>
       </div>
     </form>
