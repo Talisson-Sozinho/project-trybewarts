@@ -11,18 +11,43 @@
   background-color: rgb(50, 167, 145);
   flex: 1;
   height: 14vh;
-  padding: 1em 1.5em;
+  padding: 0 1.5em;
   justify-content: space-between;
+  align-items: center;
+}
+
+.trybewarts-header-logo {
+  height: 70%;
 }
 
 .trybewarts-login {
   display: flex;
   align-self: center;
+  gap: 0.75em;
+}
+
+.trybewarts-login input {
+  padding: 0.5em;
+  border-radius: 10px;
+  border: none;
+}
+
+.trybewarts-login button {
+  padding: 0.5em 1.5em;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(245, 239, 214);
+}
+
+.trybewarts-login button:hover {
+  filter: brightness(0.9);
 }
 
 /* Conteúdo principal */
 main {
   display: flex;
+  justify-content: center;
+  gap: 5em;
 }
 
 /* Logo gradão */
@@ -40,27 +65,82 @@ main {
 
 .full-name-container {
   display: flex;
+  gap: 0.5em;
 }
 
 .full-name-container input {
   flex-grow: 1;
+  padding: 0.4em;
+  border-radius: 5px;
+  border: 1px solid grey;
 }
 
 .email-house-container {
   display: flex;
+  margin-top: 0.5em;
+  gap: 0.5em;
+}
+
+.email-house-container input {
+  padding: 0.4em;
+  border-radius: 5px;
+  width: 21.4em;
+  border: 1px solid grey;
 }
 
 .family-input-container {
   display: flex;
   flex-direction: column;
-  gap: 0.75em;
+  gap: 0.5em;
+  margin-top: 0.5em;
+}
+
+.content-input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5em;
+  gap: 0.5em;
 }
 
 .rate-input-container {
   display: flex;
   gap: 0.5em;
+  margin-top: 0.5em;
+}
+
+.textarea-container {
+  margin-top: 0.5em;
 }
 
 textarea {
   resize: none;
+}
+
+.agreement-container {
+  margin-top: 0.5em;
+}
+
+#submit-btn {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  margin-top: 2em;
+  padding: 1em;
+  width: 30%;
+  background-color: lightgreen;
+  color: black;
+  border-radius: 10px;
+  border: none;
+}
+
+#submit-btn:hover {
+  filter: brightness(0.9);
+}
+
+/* footer */
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 1em 0;
 }
