@@ -114,6 +114,7 @@ main {
 
 textarea {
   resize: none;
+  padding: 0.5em;
 }
 
 .agreement-container {
@@ -136,6 +137,11 @@ textarea {
 
 #submit-btn:hover {
   filter: brightness(0.9);
+}
+
+#submit-btn:disabled {
+  background-color: lightgrey;
+  filter: brightness(0.7);
 }
 
 /* footer */
